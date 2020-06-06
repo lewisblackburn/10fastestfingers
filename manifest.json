@@ -1,0 +1,15 @@
+{
+  "name": "10fastestfingers",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Get the highest possible score on 10fastfingers.com",
+  "homepage_url": "http://zxffo.cc",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Inject!"
+  },
+  "permissions": ["https://*/*", "http://*/*", "tabs"]
+}
